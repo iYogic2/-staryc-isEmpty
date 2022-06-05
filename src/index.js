@@ -7,3 +7,6 @@
       return (param??'') === '' ? true : false
    } 
  }
+
+
+ export default isEmpty
