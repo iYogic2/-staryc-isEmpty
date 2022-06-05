@@ -1,0 +1,22 @@
+{
+  "name": "isempty",
+  "version": "1.0.0",
+  "description": "judge param is empty",
+  "main": "src/index.js",
+  "scripts": {
+    "build": "rollup -c",
+    "serve": "rollup -c -w",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "isempty"
+  ],
+  "author": "yogic",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.18.2",
+    "@babel/preset-env": "^7.18.2",
+    "rollup": "^2.75.5",
+    "rollup-plugin-babel": "^4.4.0"
+  }
+}
